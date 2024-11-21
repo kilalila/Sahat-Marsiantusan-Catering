@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami - SMC Batak Catering</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .info {
+            margin-bottom: 20px;
+        }
+        .info p {
+            margin: 5px 0;
+        }
+        .info span {
+            font-weight: bold;
+        }
+        .contact-form {
+            margin-top: 20px;
+        }
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #25d366; /* WhatsApp green */
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .contact-form button:hover {
+            background-color: #1da955;
+        }
+        a {
+            color: #25d366;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Hubungi Kami</h2>
+        <div class="info">
+            <p><span>📞 Telepon/WhatsApp:</span> <a href="https://wa.me/6282124895144" target="_blank">+62 821 2489 5144</a></p>
+            <p><span>📧 Email:</span> <a href="mailto:info@smcbatakcatering.com">info@smcbatakcatering.com</a></p>
+            <p><span>📍 Lokasi:</span> Jl. Kihapit Timur No. 88, Cimahi Selatan, Jawa Barat</p>
+            <p><span>🕒 Jam Operasional:</span></p>
+            <ul>
+                <li>Senin - Sabtu: 08.00 - 20.00</li>
+                <li>Minggu: 10.00 - 18.00</li>
+            </ul>
+        </div>
+        <div class="contact-form">
+            <h3>💬 Pesan Cepat</h3>
+            <form action="#" method="post">
+                <label for="name">Nama</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Nomor Telepon</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="message">Pesan Anda</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
